@@ -1,0 +1,29 @@
+/*background image*/
+body{
+	margin: 0;
+	padding: 0;
+	content: center;
+	background: pink;
+	align-items: top(10%);
+}
+.btn{
+	
+	padding: 20px;
+	margin: 20px;
+}
+.btn1{
+	border:2px solid black;
+	background: none;
+}
+.btn2{
+	border:5px solid black;
+	background: none;
+}
+.box{
+	position: relative;
+	top: 30px;
+	left:5%;
+	width: 1150px;
+	height: 200px;
+	background: pink;
+}

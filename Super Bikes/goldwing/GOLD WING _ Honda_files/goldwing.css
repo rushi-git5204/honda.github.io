@@ -1,0 +1,249 @@
+﻿#bannerSlider .slick-dots li.slick-active button {
+    background: transparent;
+}
+
+.color-box {
+    border: none !important;
+    padding: 8px !important;
+}
+
+.color-link {
+    height: 40px;
+    width: 40px;
+    border: 5px solid #fff !important;
+    border-radius: 100% !important;
+}
+
+.color-name {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.tab-outer {
+    min-height: 360px;
+    border: 1px solid #fff;
+    padding: 8px;
+    color: #fff;
+}
+
+.spec-td {
+    padding: 15px 0;
+    font-size: 12px;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+    border-left: 2px solid rgba(255, 255, 255, 0.5);
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #e70323;
+        border-left: 2px solid #e70323;
+        background-color: transparent;
+        border-radius: 0;
+        font-style: italic;
+    }
+/* Sticky Social Icons */
+.sticky-container {
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: -299px;
+    top: 230px;
+    width: 350px;
+    z-index: 1100;
+}
+
+.sticky li {
+    list-style-type: none;
+    background-color: #fff;
+    color: #efefef;
+    padding: 0px;
+    margin: 0px 0px 1px 0px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+    .sticky li:hover {
+        margin-left: -160px;
+        background-color: #e70323;
+        color: #fff;
+    }
+
+.sticky .enq:hover {
+    margin-left: -100px;
+    background-color: #e70323;
+    color: #fff;
+}
+
+/*.sticky li img {
+            float: left;
+            margin: 5px 4px;
+            margin-right: 5px;
+        }*/
+
+.sticky li p {
+    line-height: 16px;
+    font-size: 11px;
+}
+
+    .sticky li p a {
+        text-decoration: none;
+        color: #2C3539;
+    }
+
+        .sticky li p a:hover {
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+.sticky .button1 {
+    border: none;
+}
+
+/* Sticky Social Icons */
+
+.sticky-button1 {
+    color: #fff;
+    width: 60%;
+    font-weight: 300;
+    display: inline-block;
+    transition: all 0.8s ease;
+    text-transform: uppercase;
+    vertical-align: middle;
+    padding: 10px 5px;
+}
+
+    .sticky-button1 .icon1-b {
+        vertical-align: middle;
+        background: url(../../Content/images/icon1.png) no-repeat 0px 0px;
+        width: 41px;
+        height: 41px;
+        transition: all 0.5s ease;
+        display: inline-block;
+    }
+
+    .sticky-button1 .icon2-b {
+        vertical-align: middle;
+        background: url(../../Content/images/icon2.png) no-repeat 0px 0px;
+        width: 41px;
+        height: 41px;
+        transition: all 0.5s ease;
+        display: inline-block;
+    }
+
+    .sticky-button1 .icon3-b {
+        vertical-align: middle;
+        background: url(../../Content/images/icon3.png) no-repeat 0px 0px;
+        width: 41px;
+        height: 41px;
+        transition: all 0.5s ease;
+        display: inline-block;
+    }
+
+    .sticky-button1 span {
+        margin-right: 15px;
+    }
+
+    .sticky-button1:hover, .sticky-button1 a:hover {
+        background: #e70323;
+        color: #efefef;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+        .sticky-button1:hover .icon1-b, .sticky-button1:hover .icon2-b, .sticky-button1:hover .icon3-b {
+            background-position: 0px -41px;
+            transition: all 0.5s ease;
+        }
+
+.nav-feat {
+    display: block;
+}
+
+.nav-pills .nav-feat {
+    border-radius: 0;
+    border: none;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    background-color: #fff;
+}
+
+    .nav-pills .nav-feat.active, .nav-pills .show > .nav-feat {
+        color: transparent;
+        border: none;
+        background-color: #fff;
+        border-radius: 0;
+        font-style: normal;
+        opacity: 1;
+    }
+
+    .nav-pills .nav-feat img {
+        opacity: .5;
+        width: 55px;
+    }
+
+    .nav-pills .nav-feat.active img {
+        opacity: 1;
+    }
+
+    .nav-pills .nav-feat .small-feat {
+        background-color: #111;
+    }
+
+    .nav-pills .nav-feat .one {
+        opacity: 0;
+        background-color: #111;
+    }
+
+    .nav-pills .nav-feat.active .one {
+        opacity: 1;
+    }
+
+.underline {
+    text-decoration: none;
+    position: relative;
+}
+
+    .underline:after {
+        position: absolute;
+        content: '';
+        height: 3px;
+        /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+        bottom: -10px;
+        /****** optional values below ******/
+        /* center - (optional) use with adjusting width   */
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 40%;
+        background: #fff;
+    }
+
+.sliderContent {
+    transform: translate(-20%, 80%);
+    position: absolute;
+    top: 28%;
+    z-index: 9999;
+}
+@media only screen and (max-width: 480px) and (min-width: 240px) {
+    .goldWing_ftr .nav {
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+    }
+
+    .ftr_d {
+        display: block !important;
+    }
+}
+
+#navbarDropdownBox .nav-pills .nav-link.active, #navbarDropdownBox .nav-pills .show > .nav-link {
+    border-left: 2px solid rgba(255, 255, 255, 0.5) !important;
+    background-color: #fff;
+    border-radius: 0;
+}

@@ -1,0 +1,108 @@
+<html>
+   <head>
+      <link rel="stylesheet" href="style.css" >
+	  <link rel="stylesheet" href="Style/css/style.css" />
+</head>
+ <body>
+  
+        <center><img src="Africa-Twin-icon.png" style="height: 10%;"/></center>
+       <a href="D:\Project\HONDA\Homepage.html"><button style="background: none;
+    color: white; 
+	border:2px solid black;
+	font-size: 20px; 
+	padding: 10px 10px; margin: 0px;">Homepage</button></a>
+  <center>
+<table cellpadding=1>
+	<tr>
+     <td> <a href="D:\Project\HONDA\Super Bikes\cbr-650r\cbr-650r.html"><div class="item4"><button class="btn btn4"><img src="cbr-650r-icon.png"/></button></div></a> </td>
+	 <td><a href="D:\Project\HONDA\Super Bikes\cbr-1000rr\cbr-1000rr.html"><div class="item5"><button class="btn btn5"><img src="cbr-1000rr-icon.png"/></button></div></a> </td>
+	   <td> <a href="D:\Project\HONDA\Super Bikes\cb-300r\cb-300r.html"><div class="item6"><button class="btn btn6"><img src="cb-300r-icon.png"/></button></div></a> </td>
+	   <td>  <a href="D:\Project\HONDA\Super Bikes\cb-1000r\cb-1000r.html"><div class="item7"><button class="btn btn7"><img src="cb-1000r-icon.png"/></button></div></a> </td>
+	    <td> <a href="D:\Project\HONDA\Super Bikes\goldwing\goldwing.html"><div class="item8"><button class="btn btn8"><img src="goldwing-icon.png"/></button></div></a> </td>
+	    <td> <a href="D:\Project\HONDA\Super Bikes\africatwin\africatwin.html"><div class="item8"><button class="btn btn8"><img src="Africa-Twin.png"/></button></div></a> </td>
+	</td></div>  
+	   </center>
+</tr>
+</table> 
+<div class ="container">
+ <a href="..\Gallery\Gallery.html"><button class="b b11">Gallery</button></a>
+	<a href="..\Features\Features.html"><button class="b b12">Features</button></a>
+	<a href="..\Video\Video.html"><button class="b b13">Video</button></a>
+	<a href="..\Specifications\Specifications.html"><button class="b b14">Specifications</button></a> 
+    <a href="..\About Me\About Me.html"><button class="b b16">About Me</button></a>
+    <a href="..\Price\Price.html"><button class="b b17">Price</button></a>
+</div>
+<center>  
+<div class="slideshow-container" style="background-image: url(285334.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 0px;
+	padding: 0px; size: cover">
+ 
+
+<div class="mySlides fade">
+  <img src="AfricaTwin-1.jpg" style=" width:1250; height:550;">
+</div>
+
+<div class="mySlides fade">
+  <img src="AfricaTwin-2.jpg" style=" width:1250; height:550;">
+</div>
+
+<div class="mySlides fade">
+  <img src="AfricaTwin-3.jpg" style=" width:1250; height:550;">
+</div>
+
+<div class="mySlides fade">
+  <img src="AfricaTwin-4.jpg" style=" width:1250; height:550;">
+</div>
+
+<div class="mySlides fade">
+  <img src="AfricaTwin-5.jpg" style=" width:1250; height:550;">
+</div> 
+<div class="mySlides fade">
+  <img src="AfricaTwin-6.jpg" style=" width:1250; height:550;">
+</div> 
+<div class="mySlides fade">
+  <img src="gallery_img1.jpg" style=" width:1250; height:550;">
+</div> 
+<div class="mySlides fade">
+  <img src="gallery_img2.jpg" style=" width:1250; height:550;">
+</div> 
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>   
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 15 seconds
+}
+</script>
+</center></div>	
+   </body>
+</html>

@@ -1,0 +1,36 @@
+/*background image*/
+body{
+     background: skyblue;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+	font-family: contury Gothis;
+}
+/*text line*/
+.color{
+	text-align: center;
+	background-image:  url(wallpaper.jpg);
+}
+.bt{
+	border:2px solid black;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: "montserrat";
+	cursor: pointer;
+	margin: 0px;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+} 
+/*text color*/
+.bt18,.bt19,
+.bt20,.bt21,
+.bt22,.bt23,
+.bt24,.bt25{
+	color: white;
+}
+.bt24{
+	color: red;
+} 

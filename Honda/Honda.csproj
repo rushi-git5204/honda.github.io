@@ -1,0 +1,709 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{58BCE6DE-E52D-450C-9456-230C45D1D04F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Honda</RootNamespace>
+    <AssemblyName>Honda</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activa125.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activa125.Designer.cs">
+      <DependentUpon>Activa125.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Activa6G.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activa6G.Designer.cs">
+      <DependentUpon>Activa6G.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adminhome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adminhome.cs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Adminhome.cs.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Adminhome.Designer.cs">
+      <DependentUpon>Adminhome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AfricaTwin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AfricaTwin.Designer.cs">
+      <DependentUpon>AfricaTwin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Booking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking.Designer.cs">
+      <DependentUpon>Booking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CB Unicorn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CB Unicorn.Designer.cs">
+      <DependentUpon>CB Unicorn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CB1000R.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CB1000R.Designer.cs">
+      <DependentUpon>CB1000R.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CBHornet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBHornet.Designer.cs">
+      <DependentUpon>CBHornet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CBR 250R.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBR 250R.Designer.cs">
+      <DependentUpon>CBR 250R.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CBR1000RR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBR1000RR.Designer.cs">
+      <DependentUpon>CBR1000RR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CBR650R.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBR650R.Designer.cs">
+      <DependentUpon>CBR650R.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CBShine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBShine.Designer.cs">
+      <DependentUpon>CBShine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CD110 Dream.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CD110 Dream.Designer.cs">
+      <DependentUpon>CD110 Dream.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contacts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contacts.Designer.cs">
+      <DependentUpon>Contacts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cusinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cusinfo.Designer.cs">
+      <DependentUpon>Cusinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CusinfoRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CusinfoRep.Designer.cs">
+      <DependentUpon>CusinfoRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Bill_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Bill_Form.Designer.cs">
+      <DependentUpon>Customer_Bill_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cus_Bill_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cus_Bill_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cus_Book_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cus_Book_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cus_Info_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cus_Info_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dio.Designer.cs">
+      <DependentUpon>Dio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoldWing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoldWing.Designer.cs">
+      <DependentUpon>GoldWing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grazia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grazia.Designer.cs">
+      <DependentUpon>Grazia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Livo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Livo.Designer.cs">
+      <DependentUpon>Livo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RepBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepBooking.Designer.cs">
+      <DependentUpon>RepBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepCusBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepCusBill.Designer.cs">
+      <DependentUpon>RepCusBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepCusInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepCusInfo.Designer.cs">
+      <DependentUpon>RepCusInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepSupBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepSupBill.Designer.cs">
+      <DependentUpon>RepSupBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepSupInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepSupInfo.Designer.cs">
+      <DependentUpon>RepSupInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepWorker_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepWorker_info.Designer.cs">
+      <DependentUpon>RepWorker_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepWorker_Salary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepWorker_Salary.Designer.cs">
+      <DependentUpon>RepWorker_Salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SP125.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SP125.Designer.cs">
+      <DependentUpon>SP125.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stk.designer.cs">
+      <DependentUpon>stk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock.Designer.cs">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StockDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Stock_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Stock_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Supplier_Bill_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supplier_Bill_Form.Designer.cs">
+      <DependentUpon>Supplier_Bill_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Supplier_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supplier_Info.Designer.cs">
+      <DependentUpon>Supplier_Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sup_Bill_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sup_Bill_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Sup_info_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sup_info_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Userhome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Userhome.Designer.cs">
+      <DependentUpon>Userhome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Worker_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Worker_info.Designer.cs">
+      <DependentUpon>Worker_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Worker_info_DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Worker_info_DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Worker_Salary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Worker_Salary.Designer.cs">
+      <DependentUpon>Worker_Salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Worker_Salary_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Worker_Salary_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="XBlade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XBlade.Designer.cs">
+      <DependentUpon>XBlade.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Activa125.resx">
+      <DependentUpon>Activa125.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Activa6G.resx">
+      <DependentUpon>Activa6G.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adminhome.cs.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Adminhome.cs.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adminhome.resx">
+      <DependentUpon>Adminhome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AfricaTwin.resx">
+      <DependentUpon>AfricaTwin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking.resx">
+      <DependentUpon>Booking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CB Unicorn.resx">
+      <DependentUpon>CB Unicorn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CB1000R.resx">
+      <DependentUpon>CB1000R.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CBHornet.resx">
+      <DependentUpon>CBHornet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CBR 250R.resx">
+      <DependentUpon>CBR 250R.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CBR1000RR.resx">
+      <DependentUpon>CBR1000RR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CBR650R.resx">
+      <DependentUpon>CBR650R.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CBShine.resx">
+      <DependentUpon>CBShine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CD110 Dream.resx">
+      <DependentUpon>CD110 Dream.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contacts.resx">
+      <DependentUpon>Contacts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cusinfo.resx">
+      <DependentUpon>Cusinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CusinfoRep.resx">
+      <DependentUpon>CusinfoRep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Bill_Form.resx">
+      <DependentUpon>Customer_Bill_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cus_Bill_Report.rdlc" />
+    <EmbeddedResource Include="Cus_Info_Report.rdlc" />
+    <EmbeddedResource Include="Dio.resx">
+      <DependentUpon>Dio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoldWing.resx">
+      <DependentUpon>GoldWing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grazia.resx">
+      <DependentUpon>Grazia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Livo.resx">
+      <DependentUpon>Livo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBooking.resx">
+      <DependentUpon>RepBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepCusBill.resx">
+      <DependentUpon>RepCusBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepCusInfo.resx">
+      <DependentUpon>RepCusInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCusBooking.rdlc" />
+    <EmbeddedResource Include="ReportWorker_info.rdlc" />
+    <EmbeddedResource Include="ReportWorker_Salary.rdlc" />
+    <EmbeddedResource Include="RepSupBill.resx">
+      <DependentUpon>RepSupBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepSupInfo.resx">
+      <DependentUpon>RepSupInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepWorker_info.resx">
+      <DependentUpon>RepWorker_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepWorker_Salary.resx">
+      <DependentUpon>RepWorker_Salary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP125.resx">
+      <DependentUpon>SP125.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stk.resx">
+      <DependentUpon>stk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock.resx">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock_Report.rdlc" />
+    <EmbeddedResource Include="Suo_Bill_Report1.rdlc" />
+    <EmbeddedResource Include="Supplier_Bill_Form.resx">
+      <DependentUpon>Supplier_Bill_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supplier_Info.resx">
+      <DependentUpon>Supplier_Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sup_info_Report.rdlc" />
+    <EmbeddedResource Include="Userhome.resx">
+      <DependentUpon>Userhome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Worker_info.resx">
+      <DependentUpon>Worker_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Worker_Salary.resx">
+      <DependentUpon>Worker_Salary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XBlade.resx">
+      <DependentUpon>XBlade.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Cus_Bill_DataSet.xsc">
+      <DependentUpon>Cus_Bill_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Cus_Bill_DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cus_Bill_DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Cus_Bill_DataSet.xss">
+      <DependentUpon>Cus_Bill_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Cus_Book_DataSet.xsc">
+      <DependentUpon>Cus_Book_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Cus_Book_DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cus_Book_DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Cus_Book_DataSet.xss">
+      <DependentUpon>Cus_Book_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Cus_Info_DataSet.xsc">
+      <DependentUpon>Cus_Info_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Cus_Info_DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cus_Info_DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Cus_Info_DataSet.xss">
+      <DependentUpon>Cus_Info_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="StockDataSet.xsc">
+      <DependentUpon>StockDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StockDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StockDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StockDataSet.xss">
+      <DependentUpon>StockDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Stock_DataSet.xsc">
+      <DependentUpon>Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Stock_DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Stock_DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Stock_DataSet.xss">
+      <DependentUpon>Stock_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Sup_Bill_DataSet.xsc">
+      <DependentUpon>Sup_Bill_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Sup_Bill_DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Sup_Bill_DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Sup_Bill_DataSet.xss">
+      <DependentUpon>Sup_Bill_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Sup_info_DataSet.xsc">
+      <DependentUpon>Sup_info_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Sup_info_DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Sup_info_DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Sup_info_DataSet.xss">
+      <DependentUpon>Sup_info_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Worker_info_DataSet1.xsc">
+      <DependentUpon>Worker_info_DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Worker_info_DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Worker_info_DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Worker_info_DataSet1.xss">
+      <DependentUpon>Worker_info_DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Worker_Salary_DataSet.xsc">
+      <DependentUpon>Worker_Salary_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Worker_Salary_DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Worker_Salary_DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Worker_Salary_DataSet.xss">
+      <DependentUpon>Worker_Salary_DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB300R-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AfricaTwin-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20210529_105717.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbHornet-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unicorn-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unicorn-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+    <None Include="Resources\3.png" />
+    <None Include="Resources\90977.jpg" />
+    <None Include="Resources\Untitled11.png" />
+    <None Include="Resources\Untitled12.png" />
+    <None Include="Resources\Untitled13.png" />
+    <None Include="Resources\IMG_20210529_1057171.jpg" />
+    <None Include="Resources\IMG_20210529_1057172.jpg" />
+    <None Include="Resources\IMG_20210529_1057173.jpg" />
+    <None Include="Resources\4.jpg" />
+    <None Include="Resources\th02UBGJKR.jpg" />
+    <Content Include="AllData.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AllData_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>AllData.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\sai.jpg" />
+    <None Include="Resources\X-bladeLogo.png" />
+    <None Include="Resources\CBR1000RR.jpg" />
+    <Content Include="Stock.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Stock_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Stock.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

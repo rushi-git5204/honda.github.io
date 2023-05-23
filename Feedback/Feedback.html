@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us form</title>
+	<link rel="stylesheet" href="styles.css">
+<script>   
+ function val(){ 
+  if(frm.Name.value==""){
+     alert("Please Enter valid Name"); 
+	frm.Name.focus(); 
+    return false;
+  } 
+   if(frm.Mobile.value=="") 
+ {   
+     alert("Please enter the Mobile number");
+	 frm.Mobile.focus();
+	 frm.Mobile.focus();
+	    return false;
+  }  
+  if(isNaN(frm.Mobile.value))
+{
+    alert("Invalid Mobile number");
+	frm.Mobile.focus();
+	return false;
+}
+if((frm.Mobile.value).length < 10)
+{
+    alert("Mobile number should be minimum 10 digits");
+	frm.Mobile.focus();
+	return false;
+}
+if((frm.Mobile.value).length > 10)
+{
+    alert("Mobile number should be maximum 10 digits");
+	frm.Mobile.focus();
+	return false;
+} 
+  if(frm.Email.value=="")
+ {
+     alert("Please Enter Email"); 
+	frm.Name.focus(); 
+    return false;
+  }  
+  
+    if((frm.Email.value).indexOf("@")<=0){
+	   alert("Invalid @ position");
+	 frm.Mobile.focus();
+	 frm.Mobile.focus();
+	    return false;
+  }  
+    if(frm.Comment.value=="")
+ {
+     alert("Please Enter Comments"); 
+	frm.Name.focus(); 
+    return false;
+  }  
+	 
+  alert("Form Submitted Successfully! THANK YOU "); 
+return true;
+}
+</script> 
+</head>
+<body>
+ <a href="D:\Project\HONDA\Homepage.html"><button style="background: none;
+    color: white; 
+	border:2px solid black;
+	font-size: 20px; 
+	padding: 10px 10px; margin: 0px; ">Homepage</button></a>
+<div class="wrapper">
+ <div class="contact-form">
+    <div class="input-fields">
+<center><h1>FEEDBAACK</h1></center>
+	<form name="frm"   method="post">  
+    <br>  <input class="input" type="text" name="Name" placeholder="Name" />
+      <input class="input" type="text" name="Email" placeholder="Email Address" />
+      <input class="input" type="text" name="Mobile" placeholder="Mobile Number" /> 
+      <input class="input" type="text" name="Comment" placeholder="Comment" /> 
+    <center><input type="submit" value="submit" onclick="return val();"style="background: orange;
+    color: white; 
+	border:2px solid orange;
+	font-size: 20px; 
+	padding: 10px 10px; margin: 0px; color: white;"></input>
+	<input type="reset" value="Reset" style="background: orange;
+    color: white; 
+	border:2px solid orange;
+	font-size: 20px; 
+	padding: 10px 10px; margin: 0px; color: white;" />
+   </center>
+ 
+  </div></div>
+</div>	
+
+  </form>
+</body>
+</html>

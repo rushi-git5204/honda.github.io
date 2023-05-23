@@ -1,0 +1,18 @@
+/*background image*/
+body{
+        background: Skyblue;
+	margin: 0;
+	padding: 0;
+}
+
+.btn{
+	border:2px solid black;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: "montserrat";
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.8s;
+	position: relative;
+}

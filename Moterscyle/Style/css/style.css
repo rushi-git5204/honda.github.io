@@ -1,0 +1,16 @@
+/*background image*/
+body{
+        background: Skyblue;
+	margin: 0;
+	padding: 0;
+}
+.btn{
+	border:2px solid black;
+	background: none;
+	padding: 20px;
+	cursor: pointer;
+	margin: 20px;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+}

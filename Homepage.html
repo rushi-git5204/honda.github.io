@@ -1,0 +1,86 @@
+<html>
+<head>
+      <title> HONDA BIKES</title>
+      <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+<div class ="container">
+
+<img src="../Img/Untitled1.png" align="center"width="100%"height="20%"</img>
+    <button class="btn btn1">Home</button>
+   <a href ="Video\Video.html"><button class="btn btn8">Video</button></a>
+   <a href ="History\History.html"><button class="btn btn2">History</button></a>
+   <a href ="Moterscyle\MotercyCle.html"><button class="btn btn3">Motorcycle</button></a>
+   <a href ="Scooter\Scooter.html"><button class="btn btn4">Scooter</button></a>
+    <a href ="Super Bikes\Super Bikes.html"><button class="btn btn5">Super Bikes</button></a>
+    <a href ="Contacts\Contacts.html"><button class="btn btn6">Contacts</button></a>
+    <a href ="Feedback\Feedback.html"><button class="btn btn7">Feedback</button></a>
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="offer_banner-homepage.jpg" width="100%"height="70%">
+</div>
+
+<div class="mySlides fade">
+  <img src="activa5gLE-homepage.jpg" width="100%"height="70%">
+</div>
+
+<div class="mySlides fade">
+  <img src="activa125BSVI-homepage.jpg" width="100%"height="70%">
+</div>
+<div class="mySlides fade">
+  <img src="Grazia-homepage.jpg" width="100%"height="70%">
+</div>
+<div class="mySlides fade">
+  <img src="CBshineLE-homepage.jpg" width="100%"height="70%">
+</div>
+<div class="mySlides fade">
+  <img src="CBshine-homepage.jpg" width="100%"height="70%">
+</div>
+<div class="mySlides fade">
+  <img src="CBR-650R-homepage.jpg" width="100%"height="70%">
+</div>
+<div class="mySlides fade">
+  <img src="CB-300R-homepage.jpg" width="100%"height="70%">
+</div>
+<div class="mySlides fade">
+  <img src="banner6.jpg" width="100%"height="70%">
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 15 seconds
+}
+</script>
+</body>
+</html>

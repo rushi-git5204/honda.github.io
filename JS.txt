@@ -1,0 +1,9 @@
+<html>
+<body>
+<h2> My fast Javascript</h2>
+<button type ="button" oneclick="document.getElementById('demo').innerHTML = date()">
+Click me to display Date and Time.
+</button>
+<p id ='demo'></p>
+</body>
+</html>

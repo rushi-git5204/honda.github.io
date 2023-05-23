@@ -1,0 +1,45 @@
+
+
+h2{
+  text-align:center;
+}
+
+.col{
+  float:Right ;
+  width: 40%;
+  margin: 20px;
+  padding: 0px;
+  box-sizing:border-box;
+}
+
+.price-box{
+  background: block;
+  color: black;
+  list-style-type:none;
+  border: 2px solid black;
+  margin:0;
+  padding:0;
+  transition:0.3s;
+}
+
+
+.price-box .header{
+  background-color: black;
+  color:  White;
+  font-size: 50px;
+}
+
+
+.price-box li{
+	color: white;
+  font-size: 25px;
+  padding:  10px;
+  border-bottom: 3px solid black;
+  text-align:center;
+}
+.price-box li strong{
+	color: white;
+  padding: 10px;
+  border-bottom: 0px solid black;
+  text-align: right;
+}

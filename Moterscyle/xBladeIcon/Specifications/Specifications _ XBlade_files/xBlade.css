@@ -1,0 +1,1021 @@
+﻿.campaignXBlade {
+	/*background: url(../../assets/images/activa125/home-bg.jpg);*/
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block;
+}
+.campaignXBlade .micro-about-sec {
+	margin-top: -2px;
+}
+ .pop-img-box {
+        position: fixed;
+        bottom: 0;
+        right: 106px;
+        width: 160px;
+        z-index: 999999;
+        display: none;
+    }
+
+    .pop-cross {
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .pop-img img {
+        position: relative;
+        width: 100%;
+    }
+
+    .cross {
+        margin-left: -10px;
+        margin-top: -6px;
+        position: absolute;
+    }
+.priceTable .datashow-responsivediv table td {
+	color: #000;
+}
+.priceTable .text-danger {
+	top: inherit !important;
+	bottom: 10px;
+}
+.cbshine-enquiry-form {
+	background: hsla(191, 88%, 32%, 0.4);
+	border: 2px solid #fff;
+	margin: 0px 15px;
+	display: inline-block;
+	margin-bottom: 15px;
+	border-radius: 6px;
+	padding: 15px;
+}
+.campaignXBlade h6 {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+	margin: 5px 0px;
+}
+.campaignXBlade  hr {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border-top: 2px solid #fff;
+}
+.campaignXBladeBG {
+	background-image: url('../images/xBlade/campaignXBladeBG.jpg');
+	display: inline-block;
+	top: -4px;
+	position: relative;
+	width: 100%;
+}
+.table-bordered > tbody > tr > td {
+	background: hsla(191, 88%, 32%, 0.4);
+	color: #fff;
+}
+.slide {
+	background: hsla(191, 88%, 32%, 0);
+	/*border: 2px solid #fff;*/
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	padding-right: 50px;
+	/*border-radius: 6px;*/
+}
+/*.item img {
+	border: 2px solid #fff;
+	margin-top: 0px;
+}*/
+
+.item h2 {
+	color: #fff;
+	font-size: 16px;
+}
+
+.item p {
+	color: #fff;
+	line-height: 18px;
+}
+
+.left {
+	position: absolute;
+	left: 15px;
+	top: 50%;
+}
+
+.right {
+	position: absolute;
+	right: 15px;
+	top: 50%;
+}
+
+.embed-responsive-16by9 {
+	padding-bottom: 63.25%;
+}
+.cbshine-enquiry-form label {
+	margin-top: 10px;
+	color: #fff;
+}
+.form-control {
+	background: #fff;
+	color: #000;
+}
+
+.form-group .camaignButton, .camaignButton {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px 10px;
+	margin-right: 8px;
+	min-width: 70px;
+}
+
+.form-group #btnGetOtp {
+	padding: 10px 10px;
+	position: absolute;
+}
+.form-group {
+	margin-bottom: 30px;
+}
+.text-danger {
+	color: #a94442;
+	top: inherit;
+	position: absolute;
+	bottom: -18px;
+	width: 500px;
+}
+.breadcrumb > li > a {
+	color: #000000;
+}
+.valignMiddle {
+	display: table-cell;
+	vertical-align: middle;
+	height: 190px;
+	width: 450px;
+	text-align: center;
+}
+
+/*microsite css*/
+
+.xBlade {
+	background: url(../../assets/images/xBlade/landingBanner.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block;
+}
+.xBlade2 {
+    background: url(../../assets/images/xBlade/landingBanner-2.0.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+}
+.xBladeInnerBG {
+	background-image: url('../images/xBlade/innerBG.jpg');
+	padding-bottom: 70px;
+}
+.micro-about-sec .micro-title {
+	position: relative;
+}
+
+.micro-about-sec {
+	margin-top: 20px;
+}
+
+.micro-about-sec .txt-box {
+	background: hsla(191, 89%, 32%, 0.85);
+	color: #fff;
+	margin-top:80px;
+}
+.micro-about-sec .txt-box p{
+	color: #fff;
+}
+.micro-about-sec .txt-box p:last-child {
+	margin-top: 0px;
+}
+.micro-about-sec .micro-title h6 {
+	color: #fff;
+}
+.innerProductImage {
+	margin-top: 80px;
+	max-width: 100%;
+}
+.macro-nav {
+	background: hsla(191, 89%, 32%, 0.55);
+}
+.macro-nav ul li a {
+	color: #fff;
+}
+.macro-nav ul li {
+	padding: 5px 0px;
+}
+.specifications-box {
+	margin: 0;
+	padding: 0px 0px;
+	background: rgba(125, 59, 61, 0) none repeat scroll 0 0;
+}
+.specifications-box ul {
+	border: 0px solid #ddd;
+	list-style: outside none none;
+	margin: 0;
+	padding: 0px;
+}
+.specifications-box ul li {
+	width: 32.33%;
+	display: inline-block;
+	margin-bottom: 3px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.specifications-box ul li:nth-child(even) {
+	background: #087791;
+}
+.specifications-box ul li:nth-child(odd) {
+	background: #087791;
+}
+.specifications-box ul li a {
+	padding: 12px 0px;
+	color: #fff;
+	display: block;
+}
+.specifications-active {
+	background: #cc0100;
+}
+.specifications-hover div{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+.tab_content {
+	background:hsla(191, 89%, 32%, 0.85);
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.tab_content li {
+	border-bottom: 1px solid #ffffff70;
+	color: #fff;
+}
+.tab_content li:first-child span{
+	width: 100%;
+	text-align: center;
+	font-weight: 700;
+}
+.tab_content li:first-child {
+	background: #cc0100;
+}
+.unicorn-feature-thumb ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.unicorn-feature-thumb ul li {
+	background: rgba(9, 129, 154, 0.90);
+	color: #fff;
+	padding: 10px 0px;
+	font-size: 16px;
+	margin-bottom: 7px;
+	text-align: center;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.unicorn-feature-thumb ul li.feature-active {
+	background: #cc0100;
+}
+.inner img{
+	border: 4px solid #13a1c1;
+	max-width: 100%;
+}
+.ShineSP-feature-hover {
+	height: 416px;
+	overflow: hidden;
+}
+.inner {
+	max-width: 427px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.inner div {
+	background: #09819a;
+	padding: 15px;
+	margin-top: 15px;
+	text-align: center;
+	height: 110px;
+	border-radius: 15px;
+}
+.inner h3 {
+	margin: 0px;
+	color: #fff;
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+.inner p{
+	color: #fff;
+}	
+		
+.tab_content li span {
+	width: 50%;
+	display: inline-block;
+	padding: 10px 15px;
+}
+.tab_content li span:first-child {
+	border-right: 1px solid #ffffff70;
+	text-transform: capitalize;
+}
+.specifications-hover {
+	position: relative;
+	margin: 0px 6px;
+}
+.micro-footer ul li a {
+	color:#fff;
+}
+.micro-footer ul li a div {
+	background-position: center bottom
+}
+.micro-inquary {
+	background: #09819a;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.micro-inquary label {
+	color: #fff;
+}
+.micro-inquary .form-group {
+	margin-bottom: 15px;
+}
+.colors .nav-tabs > li span {
+	padding-right: 6px;
+}
+.new-360 {
+    max-width: 750px;
+}		
+@media only screen and (max-width: 480px) and (min-width: 240px) {
+	.pop-img-box {
+	    right: 42px;
+	    width: 120px;
+	}
+	.micro-inquary .form-group #btnGetOtp{
+		width: 105px;
+	}
+	.xBladeMobLogo {
+		background-image: url('../images/xBlade/X-bladeLogo.png');
+		background-repeat: no-repeat;
+		background-size: 152px;
+		background-position: 5px 12px;
+	}
+	.macro-nav ul li:nth-child(6){
+		display: none;
+	}
+	.xBlade{
+		background: none;
+	}
+	.accordion-section-title::after {
+		color: #fff;
+	}
+	.accordion-section-title::before {
+		color: #fff;
+		margin-top: -4px;
+	}
+	.micro-about-sec .txt-box {
+		margin-top: -10px;
+		margin-bottom: 30px;
+	}
+	.aaa{
+		display: block !important;
+	}
+	.ShineSP-feature-hover {
+		height: auto;
+	}
+	.cbshine-enquiry-sec .livo-feature-txt {
+		padding: 20px 10px 0px 10px;
+    }
+	.inner div {
+		margin-top: 0;
+		height: auto;
+		border-radius: 0;
+		margin-bottom: 15px;
+	}
+	.xBladeFeaturreThumb {
+		display: none !important;
+	}
+	.specifications-hover div {
+		position: relative;
+		top: 0px;
+		width: 100%;
+		margin: 0px 0px 15px 0px !important;
+	}
+	.specifications-box{
+		display: none;
+	}
+	.tab_content li {
+		display: table;
+		width: 100%;
+	}
+	.tab_content li span:first-child {
+		width: 47%;
+		border-right: 0px;
+	}
+	.tab_content li span:last-child {
+		border-left: 1px solid #ffffff70;
+	}
+	.tab_content li span {
+		vertical-align: top;
+		display: table-cell;
+	}
+	.innerProductImage {
+		margin-top: 0;
+		margin-bottom: 20px;
+		max-width: 100%;
+	}
+	.form-group #btnGetOtp {
+		padding: 10px 10px;
+		position: relative;
+		width: 85px;
+		top: 20px;
+	}
+	.xBladeInnerBG {
+		padding-bottom: 10px;
+	}
+	.macro-nav {
+		background: hsla(191, 89%, 32%, 1);
+	}
+    .form-group .camaignButton, .camaignButton {
+        margin-left: 15px;
+    }
+
+    .ShineSP-about {
+        background: #9599a1;
+    }
+
+    .livoEnquiryBanner img {
+        max-width: 100%;
+        margin-top: 0;
+        margin-left: 0px;
+    }
+
+    .unicorn-feature-thumb {
+        display: block;
+        margin-bottom: 18px;
+    }
+
+    .left {
+        left: -3px;
+    }
+
+    .right {
+        right: -3px;
+    }
+
+    .slide {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .item h2 {
+        margin-top: 13px;
+    }
+
+    .pop-img-box {
+        right: 35px;
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+    .valignMiddle{
+        height: 110px;
+    }
+    .item p{
+        text-align: center !important;
+    }
+    .item h2{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 481px) {
+    .campaignXBlade{
+        overflow: hidden;
+    }
+    .form-group #btnGetOtp {
+        padding: 10px 10px;
+        position: relative;
+        width: 85px;
+        top: 20px;
+    }
+    .valignMiddle {
+        height: 100px;
+        width: 700px;
+    }
+}
+
+.features .sl-slide-inner p {
+    background: hsla(191, 89%, 32%, .55);
+    padding: 10px 10px;
+    font-size: 14px;
+    color: #FFF;
+    text-shadow: none;
+    margin-bottom: 0px;
+}
+
+.microFooterHome {
+    background: hsla(191, 89%, 32%, .55);
+}
+.micro-footer {
+    margin-top: -59px;
+    padding-top: 9px;
+}
+.features .carousel-caption {
+    position: relative;
+    max-width: 800px;
+    display: block;
+    margin: 0px auto;
+    left: 0px;
+    right: 0px;
+    top: 5px;
+    bottom: 5px;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+.features .sl-slide-inner h2 {
+    background: hsla(191, 89%, 32%, 0.55);
+    color: #FFF;
+    display: block;
+    font-weight: 300;
+    margin: 15px 0px;
+    padding: 10px 0px;
+    vertical-align: top;
+    font-size: 24px;
+}
+.features .sl-slide-inner h2 {
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+    .pop-img-box {
+        width: 110px;
+    }
+
+    .features .carousel-caption {
+        top: 0px;
+    }
+
+    .colors .color-thumb {
+        position: relative;
+        right: 0px;
+        padding: 45px 0px 0px 0px;
+    }
+
+    .btnColor {
+        position: absolute;
+        top: -29px;
+        right: -5px;
+    }
+
+    .features {
+        padding: 0px 5px;
+    }
+
+    .dio {
+        background: none;
+        min-height: 100%;
+    }
+
+    .macro-nav ul li:nth-child(7) {
+        display: none;
+    }
+
+    .macro-nav {
+        padding: 0px 0px;
+        display: block;
+        background: #000;
+    }
+
+    .micro-footer {
+        position: relative;
+        background: #211d1c;
+        padding: 0px 0px;
+        left: 0;
+    }
+
+    .angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator {
+        display: none;
+    }
+
+    .macro-nav ul li a {
+        color: #fff;
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+
+    .macro-nav ul li:after {
+        color: #000;
+    }
+
+    .micro-footer ul {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+        .micro-footer ul li a span {
+            padding: 0px 10px;
+            text-align: left;
+            color: #fff;
+        }
+
+    .micro-about-sec .txt-box {
+        border-radius: 0px;
+        padding: 15px 15px;
+        margin: 0px 0px 20px 0px;
+    }
+
+
+    .dio-about .macro-nav ul li a {
+        color: #fff;
+    }
+
+
+    .dio-about .macro-nav ul li::after {
+        color: #000;
+    }
+
+    .dio-about {
+        padding-bottom: 0px;
+    }
+
+    .txt-box h2 {
+        text-align: left;
+        font-size: 26px;
+    }
+
+    .unicorn-feature-thumb {
+        display: none;
+    }
+
+    .unicorn-feature {
+        border-color: transparent;
+    }
+
+    .body-color-grab, .handle-bar-weights, .stylish-meter-console, .d3, .viscous-air-filter, .superior-performance, .gear-shift, .mono-suspension, .alloy-wheels, .premium-front {
+        position: relative;
+        display: block !important;
+        border-bottom: 1px solid #fff;
+        margin-bottom: 32px;
+        padding-bottom: 6px;
+    }
+
+    .inner {
+        padding: 0px 12px;
+    }
+
+        .inner p {
+            text-align: center;
+        }
+
+    .unicorn-feature-hover h3 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .livo-feature-txt {
+        margin-top: 0;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .unicorn-feature-hover {
+        float: none;
+        display: inline-block;
+    }
+
+        .unicorn-feature-hover img {
+            margin: 0px auto;
+            max-width: 192px;
+            float: none;
+            display: block;
+        }
+
+    .for-image {
+        display: none;
+    }
+
+
+    .body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals {
+        margin: 0px 0px 20px 0px !important;
+        position: relative;
+        height: auto;
+    }
+
+    .specifications-box {
+        display: none;
+    }
+
+    .gallery .controls {
+        width: 100%;
+        display: none;
+    }
+
+    .accessories-images-hide {
+        display: none;
+    }
+
+    .accessories-popup {
+        position: relative;
+    }
+
+    .accessories-popup-left, .accessories-popup-right {
+        display: none;
+    }
+
+    .accessories-popup-box {
+        display: block !important;
+        position: relative;
+        margin-bottom: 15px;
+        left: 0px;
+        width: 100%;
+    }
+
+    .cxx {
+        display: none;
+    }
+
+
+    .rotatebox .images {
+        min-height: 200px;
+        position: relative;
+    }
+
+
+        .rotatebox .images img {
+            max-width: 100%;
+            max-height: 210px;
+        }
+
+    .livo-feature-txt {
+        margin-top: 0;
+        max-width: 100%;
+    }
+
+    .fff {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .control-box {
+        display: none;
+    }
+
+    .aviator-bg .content {
+        display: block !important;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .aviator-bg .specifications-box h4 {
+        display: none;
+    }
+
+    .aviator-bg .specifications-box ul h4 {
+        display: block;
+    }
+
+    .micro-padding-bottom {
+        padding-bottom: 0px;
+    }
+
+    .accessories-popup-box h3 {
+        font-size: 18px;
+    }
+
+    .accordion-section-title {
+        display: inline-block;
+    }
+
+    .accordion-section-content {
+        display: none;
+        background: #dedede;
+    }
+
+    .macro-nav ul li {
+        display: block;
+        position: relative;
+        text-align: left;
+    }
+
+        .macro-nav ul li a {
+            font-size: 14px;
+            padding: 10px 15px;
+        }
+
+    .micro-sec .macro-nav ul li::after {
+        content: "";
+    }
+
+    .micro-footer ul li {
+        display: block;
+    }
+
+    .breadcrumb {
+        display: none;
+    }
+
+    .micro-about-sec .micro-title h6 {
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .dio-logo-bg {
+        background-size: contain;
+    }
+
+    .colors .nav-tabs > li span {
+        line-height: 12px;
+        height: 65px;
+        right: 0;
+        top: 64px;
+        height: 34px;
+    }
+
+    .image-bg {
+        padding: 0px 15px;
+        background: transparent;
+        margin: 0px auto;
+        display: block;
+        float: none;
+    }
+
+    .inner img {
+        max-width: 100%;
+    }
+
+    .dio-about .macro-nav {
+        padding: 0px;
+        background: rgb(31, 31, 31);
+    }
+
+    .gif-image {
+        right: 0px;
+        top: 50px;
+    }
+
+    .features .carousel-control.right, .features .carousel-control.left {
+        display: none;
+    }
+
+    .features .item {
+        display: block;
+    }
+
+    .accessories-popup-box img {
+        max-width: 100%;
+    }
+
+    .gallery {
+        padding: 0px 33px;
+    }
+
+    .magnify img {
+        max-width: 100%;
+        margin: 30px 0px 30px 0px;
+    }
+
+    .pop-img-box {
+        right: 35px;
+    }
+
+    .features .sl-slide-inner h2 {
+        font-size: 15px;
+    }
+    .slide {
+        background: hsla(191, 88%, 32%, 0.4);
+    }
+    .bottomxl {
+        margin-bottom: 40px !important;
+    }
+}
+
+/* carosuel Indicators-Nagender*/
+.feat-img {
+    max-width: 300px !important;
+}
+
+.carousel-indicators1 {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    z-index: 0;
+    width: 60%;
+    padding: 0;
+    margin-left: 14%;
+    text-align: center;
+    list-style: none;
+}
+
+    .carousel-indicators1 li {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 0 110px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: #000\9;
+        background-color: rgba(0,0,0,0);
+        border: none;
+        opacity: .7;
+    }
+
+    .carousel-indicators1 .active {
+        width: 10px;
+        height: 10px;
+        margin: 0 110px;
+        text-indent: -999px;
+        background-color: transparent;
+        opacity: 1;
+    }
+.features .deco {
+    margin-bottom: 30px;
+}
+
+.img-display {
+    border: 2px solid #fff;
+    margin: 16px 2px;
+}
+
+@media screen and (max-width: 1160px) {
+    .carousel-indicators1 {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-indicators1 {
+        display: none;
+    }
+}
+.vd-frame {
+    padding-top: 130px;
+    padding-left: 50px;
+}
+
+.vd-frame iframe{
+
+    width: 400px;
+    height: 290px;
+
+}
+
+.feature-image img {
+    width: 550px;
+}
+
+.enquiry-btn {
+    padding: 15px 0 15px 40px;
+}
+.display-btn2 {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .feature-image img {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .vd-frame {
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .xblade-vd {
+        background: #000;
+    }
+    .enquiry-btn {
+        padding: 5px 0 5px 0px;
+    }
+    .vd-frame iframe {
+        width: 100%;
+        height: auto;
+    }
+.display-btn1{ display:none;}
+    .display-btn2 {
+        display: block;
+        padding-bottom: 10px;
+    }
+}
+

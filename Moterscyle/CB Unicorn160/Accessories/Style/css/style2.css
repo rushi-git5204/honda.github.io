@@ -1,0 +1,49 @@
+/*background image*/
+body{
+     background: skyblue;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+	font-family: contury Gothis;
+}
+/*text line*/
+.container{
+	text-align: center;
+}
+.b{
+	border:2px solid black;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: "montserrat";
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.8s;
+	position: relative;
+}
+/*text color*/
+.b11,.b13,
+.b12,.b14,
+.b15,.b16{
+	color: white;
+}
+/*before background color*/
+.b::before{
+	 content: "";
+	 position: absolute;
+	 left: 0%;
+	 width: 100%;
+	 height: 100%;
+	 background: black;
+	 z-index: -1;
+	 transition: 0.8s;
+}
+/*box slideing*/
+.b11::before,.b13::before,
+.b12::before,.b14::before,
+.b15::before,.b16::before{
+	top: 0;
+	height: 0;
+	border-redius:   0 0 50% 50%;
+}

@@ -1,0 +1,40 @@
+body{ 
+ 
+	background-image: url(CBR1000RR.jpg);
+}
+
+h2{
+  text-align:center;
+}
+
+.col{
+  float:right;
+  width: 55%;
+  margin: 10px;
+  padding: 100px;
+  box-sizing:border-box;
+}
+
+.price-box{
+  background: rgba(0,0,0,0.4);
+  list-style-type:none;
+  border:2px solid black;
+  margin: -10px;
+  padding:0; 
+}
+
+
+.price-box .header{
+  background-color: black;
+  color:#fff;
+  font-size: 70px;
+}
+
+
+.price-box li{
+	color:  white;
+  padding: 10px;
+  font-size: 20px;
+  font-style: Times new roman;
+  text-align:center;
+}

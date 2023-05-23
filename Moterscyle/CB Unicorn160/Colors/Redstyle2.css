@@ -1,0 +1,34 @@
+/*background image*/
+body{
+     background: skyblue;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+	font-family: contury Gothis;
+}
+/*text line*/
+.color{
+	text-align: center; 
+	background-image:  url(rr.png);
+}
+.btn{
+	border:2px solid black;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: "montserrat";
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+}
+/*text color*/
+.btn17,.btn19,
+.btn18,.btn20,.btn21{
+	color: white;
+}
+.btn18{
+	color: red;
+}

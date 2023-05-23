@@ -1,0 +1,249 @@
+﻿@charset "utf-8";
+
+/*Start: Reset CSS*/
+body {
+    background-color: #111;
+    color: #fff;
+}
+
+.graph_ml {
+    margin-left: -274px;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #e70323;
+    border-color: #e70323;
+}
+
+.red_clr {
+    color: #e40e2c;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.0);
+}
+
+select {
+    -webkit-appearance: none;
+}
+
+.form-control {
+    background-color: transparent;
+    height: 3rem;
+    border-radius: 0;
+    text-transform: uppercase;
+    color: #fff;
+    text-indent: 16px;
+    margin: 0 0 15px 0;
+}
+
+    .form-control::-webkit-input-placeholder {
+        color: white;
+    }
+    /* WebKit, Blink, Edge */
+    .form-control:-moz-placeholder {
+        color: white;
+    }
+    /* Mozilla Firefox 4 to 18 */
+    .form-control::-moz-placeholder {
+        color: white;
+    }
+    /* Mozilla Firefox 19+ */
+    .form-control:-ms-input-placeholder {
+        color: white;
+    }
+    /* Internet Explorer 10-11 */
+    .form-control:-ms-input-placeholder {
+        color: white;
+    }
+    /* Microsoft Edge */
+    .form-control:focus {
+        border-color: #e9ecef;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0,123,255,.0);
+    }
+
+.input-group-text {
+    background-color: transparent;
+    border: 1px solid #ced4da;
+    border-radius: 0rem;
+    border-right: none;
+}
+
+table {
+    border: 1px solid#ddd;
+}
+
+    table th {
+        color: #eb212e;
+        text-transform: uppercase;
+        border: none;
+        vertical-align: top;
+    }
+
+    table td {
+        border: none;
+        color: #fff;
+    }
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border: 1px solid#fff;
+    background-color: transparent;
+    outline: none;
+}
+
+.custom-control-label::before {
+    background-color: transparent;
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: url(../../Content/images/dot.png);
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    height: 2px;
+}
+
+    input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 7px;
+        height: 7px;
+        cursor: pointer;
+        -webkit-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.6);
+        box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.6);
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        border-radius: 40px;
+        background-color: red;
+    }
+
+.otp_btn {
+    background-color: #e40e2c;
+    color: #fff;
+}
+
+    .otp_btn:hover {
+        color: #fff;
+    }
+
+select.form-control {
+    text-indent: 16px;
+}
+
+.enqry_hdng img {
+    margin-left: -85px;
+    margin-right: 30px;
+}
+
+.btn_pdng {
+    padding: 11px;
+}
+
+.slct1 {
+    position: relative;
+}
+
+/*.slct1:after {
+        content: "\f078";
+        font-family: "FontAwesome";
+        font-size: 14px;
+        color: #fff;
+        right: 35px;
+        top: 15px;
+        position: absolute;
+        pointer-events: none;
+font-weight: 800;
+    }*/
+
+.map-responsive {
+    height: 100%;
+}
+
+
+    .map-responsive iframe {
+        height: 100%;
+        width: 100%;
+    }
+
+.dlrDetail h2 {
+    color: #ccc;
+}
+
+.dlrDetail h3 {
+    color: #e40e2c;
+}
+
+.dlrDetail img {
+    margin: auto;
+    margin-top: 0;
+}
+
+
+@media only screen and (max-width: 480px) and (min-width: 240px) {
+    .form-check-label {
+        font-size: 11px;
+    }
+
+    .slct1:after {
+        content: "\f078";
+        font-family: "Font Awesome\ 5 Free";
+        font-size: 14px;
+        color: #fff;
+        right: 35px;
+        top: 15px;
+        position: absolute;
+        pointer-events: none;
+        font-weight: 800;
+    }
+
+    .enqry_hdng {
+        font-size: 23px;
+        text-align: center;
+    }
+
+        .enqry_hdng img {
+            margin-right: 11px;
+            width: 40px;
+            margin-left: 0;
+        }
+
+    .dlrDetail p {
+        font-size: 13px;
+    }
+
+    .emi_mnthly {
+        text-align: center;
+    }
+
+    .dlrDetail h3 {
+        font-size: 18px;
+    }
+
+    .dlrDetail h2 {
+        font-size: 24px;
+    }
+
+    .cntc_nm {
+        text-align: center;
+    }
+
+    .font_12 {
+        font-size: 12px;
+    }
+
+    .graph_ml {
+        margin-left: 0;
+    }
+
+    .under_lineText {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #4e4d4d;
+    }
+}
